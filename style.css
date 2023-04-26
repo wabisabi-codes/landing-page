@@ -1,0 +1,181 @@
+body {
+  background-color: #1f2937;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.header-logo {
+  display: flex;
+  color: white;
+  padding-left: 15px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 25px;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+
+  padding-bottom: 100px;
+  gap: 100px;
+}
+
+.awesome-bttn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  flex: 1;
+
+  max-width: 270px;
+  color: white;
+}
+
+.awesome-bttn h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.awesome-bttn button {
+  width: 100px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.placeholder-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  max-width: 450px;
+}
+
+.rando {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.rando h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.subtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.subtext p {
+  max-width: 200px;
+}
+
+.img-random {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+
+  gap: 2px;
+}
+
+.img-random img {
+  border: solid blue;
+  border-radius: 100px;
+}
+
+.testimonial {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+
+  padding: 50px;
+  padding-left: 600px;
+  padding-right: 600px;
+}
+
+footer {
+  background-color: white;
+  height: 200px;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+
+  display: flex;
+  width: 700px;
+  height: 150px;
+  border-radius: 50px;
+}
+
+.call {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-content: center;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  width: 300px;
+  height: 100px;
+
+  color: white;
+}
+
+.call-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+  padding-right: 30px;
+}
+
+.call-btn button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: #3882f6;
+  border: solid white 3px;
+  border-radius: 10px;
+}

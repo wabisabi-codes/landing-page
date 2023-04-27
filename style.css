@@ -12,8 +12,14 @@ body {
 
 .header-logo {
   display: flex;
+
   color: white;
   padding-left: 15px;
+}
+
+.header-logo img {
+  height: 250px;
+  width: auto;
 }
 
 .header-links a {
@@ -24,9 +30,11 @@ body {
 .header-links {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-content: center;
   gap: 15px;
   padding-bottom: 25px;
+
+  font-size: 20px;
 }
 
 .awesome {
@@ -56,12 +64,19 @@ body {
   font-weight: bold;
 }
 
+.awesome-bttn p {
+  font-size: 20px;
+}
+
 .awesome-bttn button {
   width: 100px;
-  background-color: #3882f6;
+  background-color: darkred;
   border: none;
   border-radius: 10px;
-  padding: 5px;
+  padding: 6px;
+
+  font-size: 20px;
+  color: white;
 }
 
 .placeholder-img {
@@ -84,7 +99,8 @@ body {
 
 .rando h3 {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  font-size: 30px;
 }
 
 .subtext {
@@ -96,6 +112,8 @@ body {
 
 .subtext p {
   max-width: 200px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .img-random {
@@ -108,7 +126,7 @@ body {
 }
 
 .img-random img {
-  border: solid blue;
+  border: solid darkred;
   border-radius: 100px;
 }
 
@@ -140,7 +158,7 @@ footer {
 }
 
 .call-to-action {
-  background-color: #3882f6;
+  background-color: darkred;
 
   display: flex;
   width: 700px;
@@ -162,6 +180,10 @@ footer {
   color: white;
 }
 
+.call h3 h4 {
+  font-size: 20px;
+}
+
 .call-btn {
   display: flex;
   flex-direction: column;
@@ -174,8 +196,8 @@ footer {
 .call-btn button {
   width: 100px;
   height: 30px;
-  color: white;
-  background-color: #3882f6;
-  border: solid white 3px;
+  color: black;
+  background-color: white;
+  border: solid black 3px;
   border-radius: 10px;
 }
